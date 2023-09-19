@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Silkscreen-Bold";
+  src: url("Silkscreen/Silkscreen-Bold.ttf") format("ttf"),
+}
+
+@font-face {
+  font-family: "Silkscreen-Regular";
+  src: url("Silkscreen/Silkscreen-Regular.ttf") format("ttf"),
+}
+
+@font-face {
+  font-family:"Rajdhani";
+  src:url(Rajdhani/Rajdhani-Regular.ttf) format("ttf"),
+}
+
+@font-face {
+  font-family:"Rajdhani";
+  src:url(Rajdhani/Rajdhani-Medium.ttf) format("ttf"),
+}
+
+body{
+  width: 60%;
+  margin: auto;
+}
+
+p{
+  width: 50%;
+  margin: auto;
+}
+
+#title{
+  font-family: Silkscreen-Regular;
+  font-size: 5vw;
+}
+
+h2,h3,h4,h5,h6,h7,h8 {
+  font-size: 2vw;
+  margin-top: 20px;
+}
+
+h7,h8{
+  margin-bottom: 20px;
+}
