@@ -1,21 +1,30 @@
-@font-face {
-  font-family: "Silkscreen-Bold";
-  src: url("Silkscreen/Silkscreen-Bold.ttf") format("ttf"),
+/* contents of styles.css file */
+
+h1{
+  font-size: 6vw;
+  margin-bottom: 600px;
+  font-family:'Libre Baskerville';
+  font-style: normal;
 }
 
-@font-face {
-  font-family: "Silkscreen-Regular";
-  src: url("Silkscreen/Silkscreen-Regular.ttf") format("ttf"),
+h2{
+  color: darkblue;
+  font-family: 'Oxanium';
 }
 
-@font-face {
-  font-family:"Rajdhani";
-  src:url(Rajdhani/Rajdhani-Regular.ttf) format("ttf"),
+.sub{
+  margin-top: 900px;
+  margin-bottom: 900px;
 }
 
-@font-face {
-  font-family:"Rajdhani";
-  src:url(Rajdhani/Rajdhani-Medium.ttf) format("ttf"),
+.question1,.question2,.question3,.question4,.question5,.question6{
+  width: 2700px;
+  word-wrap: break-word;
+  margin-top: 390px;
+  margin-bottom: 450px;
+  font-family: 'bitter';
+  font-style: 'semibold';
+  font-size: 106px;
 }
 
 body{
@@ -26,18 +35,35 @@ body{
 p{
   width: 50%;
   margin: auto;
+  font-size: 70px;
+  font-style: light;
+  font-family: 'bitter';
+  letter-spacing: 2px;
+  line-height: 1.5; 
+  margin-top: 10px; 
+  margin-bottom: 20px;
 }
 
-#title{
-  font-family: Silkscreen-Regular;
-  font-size: 5vw;
-}
-
-h2,h3,h4,h5,h6,h7,h8 {
-  font-size: 2vw;
+h2{
+  font-size: 1.8vw;
   margin-top: 20px;
 }
 
-h7,h8{
-  margin-bottom: 20px;
+h3{
+  font-size: 1.7vw;
+  margin-top: 20px;
+}
+
+.l1,.l2,.l3{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.l3{
+  margin-bottom: 700px;
+}
+
+.bold-underline {
+    font-weight: bold;
+    text-decoration: underline;
 }
