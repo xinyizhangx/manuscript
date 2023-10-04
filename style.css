@@ -103,8 +103,13 @@ p{
   justify-content: center; 
 }
 
+
 .centered-text,.blue-words,.white-text,.i1,.i2,.elements,.an{
   font-family: Oxanium
+}
+
+.centered-text{
+  width: 60%;
 }
 
 .blue-square {
@@ -114,7 +119,7 @@ p{
 }
 
 .blue-words{
-  width: 50%;
+  width: 60%;
   font-family: bitter;
   font-style: regular;
   font-size: 2vw;
@@ -188,7 +193,7 @@ td {
   text-align: left;
   margin-left: 20px;
   margin-top: 20px;
-  width:70%;
+  width:60%;
   font-size: 2vw;
   font-family:bitter;
   font-style: bold;
@@ -344,18 +349,9 @@ h3{
   margin-top: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.w-full{
+  /* width: 100%; */
+}
 
 
 
