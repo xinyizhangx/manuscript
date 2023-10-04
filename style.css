@@ -1,4 +1,4 @@
-/* contents of styles.css file */
+
 
 body{
   width: 60%;
@@ -317,7 +317,7 @@ h3{
   margin-left: 0;
 }
 
-.top-button {
+.topbutton {
   display: inline-block;
   margin-top: 100px; 
   padding: 10px 15px;  
@@ -325,11 +325,11 @@ h3{
   color: white;
   text-decoration: none;  
   border-radius: 4px;  
-  transition: background-color 0.3s;  
+  transition: background-color 0.4s;  
   margin-bottom: 500px;
 }
 
-.top-button:hover {
+.topbutton:hover {
   background-color: rgb(4, 148, 255);
 }
 
@@ -344,6 +344,13 @@ h3{
   margin-left: 0;
   margin-top: 20px;
 }
+
+
+
+
+
+
+
 
 
 
