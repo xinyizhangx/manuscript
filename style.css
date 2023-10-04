@@ -1,7 +1,6 @@
 
-
 body{
-  width: 60%;
+  width: 62%;
   margin: auto;
 }
 
@@ -80,7 +79,7 @@ body{
 }
 
 p{
-  width: 70%;
+  width: 72%;
   font-size: 1.3vw;
   font-style: light;
   font-family: 'bitter';
@@ -275,7 +274,7 @@ h3{
 .blue-rectanglel{
   background-color:rgb(4, 148, 255);  
   margin-top: 200px;
-  margin-bottom: 300px;
+  /* margin-bottom: 300px; */
   padding: 10px; 
   color: white; 
   width: 1300px; 
@@ -344,6 +343,17 @@ h3{
   margin-left: 0;
   margin-top: 20px;
 }
+
+.w-full{
+  /* width: 100%; */
+}
+
+
+
+
+
+
+
 
 
 
