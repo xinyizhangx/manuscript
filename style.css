@@ -1,52 +1,265 @@
 /* contents of styles.css file */
 
-h1{
-  font-size: 6vw;
-  margin-bottom: 600px;
-  font-family:'Libre Baskerville';
-  font-style: normal;
-}
-
-h2{
-  color: darkblue;
-  font-family: 'Oxanium';
-}
-
-.sub{
-  margin-top: 900px;
-  margin-bottom: 900px;
-}
-
-.question1,.question2,.question3,.question4,.question5,.question6{
-  width: 2700px;
-  word-wrap: break-word;
-  margin-top: 390px;
-  margin-bottom: 450px;
-  font-family: 'bitter';
-  font-style: 'semibold';
-  font-size: 106px;
-}
-
 body{
   width: 60%;
   margin: auto;
 }
 
-p{
-  width: 50%;
-  margin: auto;
-  font-size: 70px;
-  font-style: light;
-  font-family: 'bitter';
-  letter-spacing: 2px;
-  line-height: 1.5; 
-  margin-top: 10px; 
-  margin-bottom: 20px;
+.title{
+  font-size: 6vw;
+  text-align: center;
+  font-family:'Libre Baskerville';
+  margin-bottom: 0;
 }
 
-h2{
+.meta-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 50vh;          
+  width: 100%;      
+}
+
+.author-link {
+  color: black;           
+  text-decoration: none;  
+}
+
+.author-link:visited {
+  color: black;        
+}
+
+.author-link:hover, .author-link:focus, .author-link:active {
+  color: rgb(0, 128, 255);          
+}
+
+.author,
+.time {
+  margin-top: 0;
+  margin-bottom: 0; 
+  font-size: 25px;
+  font-family:'Libre Baskerville';
+  font-style: italic;
+}
+
+.author{
+  margin-right: 250px;
+}
+
+.sub{
+  color: darkblue;
+  font-family: 'Oxanium';
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.bold-underline {
+  font-weight: bold;
+  text-decoration: underline;
+  color: black; 
+}
+.bold-underline:active {
+  color: gray;
+}
+.bold-underline:hover {
+  color:rgb(0, 128, 255); 
+}
+
+
+.question1,.question2,.question3,.question4,.question5,.question6{
+  width: 70%;
+  word-wrap: break-word;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  font-family: 'bitter';
+  font-weight: 'semibold';
   font-size: 1.8vw;
+}
+.question6{
+  width: 80%;
+}
+
+p{
+  width: 70%;
+  font-size: 1.3vw;
+  font-style: light;
+  font-family: 'bitter';
+  letter-spacing: auto;
+  line-height: 1.5; 
+  margin-left: 250px;
+}
+
+.p2{
+  width: 80%;
+}
+
+.blue-section {
+  margin-top: 400px;
+  margin-bottom: 400px;
+  background-color: rgb(4, 148, 255);  
+  height: 400px;
+  width: 1300px;           
+  display: flex;          
+  align-items: center;     
+  justify-content: center; 
+}
+
+.centered-text,.blue-words,.white-text,.i1,.i2,.elements,.an{
+  font-family: Oxanium
+}
+
+.blue-square {
+  width: 99px;
+  height: 99px;
+  background-color: rgb(4, 148, 255);  
+}
+
+.blue-words{
+  width: 50%;
+  font-family: bitter;
+  font-style: regular;
+  font-size: 2vw;
+  margin-left: 450px;
+  margin-top: 230px;
+  margin-bottom: 230px;
+}
+
+.blue-square2 {
+  margin-left: 1200px;
+  width: 99px;
+  height: 99px;
+  background-color: rgb(4, 148, 255);  
+}
+
+.centered-text{
+  color: white;
+  text-align: center;
+  place-items: center;
+  margin-left: 0;
+}
+
+.blue-rectangle {
+  background-color: rgb(4, 148, 255);  
+  padding-bottom: 200px; 
+  padding-right: 200px; 
+  width: 86%; 
+  display: flex; 
+  justify-content: left; 
+  align-items: left; 
+  margin-top: 300px;
+  height:400px;
+
+}
+
+.white-text {
+  color: white;
+  width: 60%;
+  text-align: left; 
+  margin-left: 30px;
+}
+
+table {
+  margin-left: 300px;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+td {
+  border: none;  
+  padding: 30px; 
+  vertical-align: top;
+  font-size: 20px;
+}
+
+.bordered-cell {
+  border-right: 1px solid black; 
+}
+
+.blue-rectangle2{
+  background-color:rgb(4, 148, 255);  
+  margin-top: 200px;
+  padding: 10px; 
+  color: white; 
+  width: 1300px; 
+  height: 750px;
+}
+
+.question4 {
+  margin:0;
+  text-align: left;
+  margin-left: 20px;
   margin-top: 20px;
+  width:70%;
+  font-size: 2vw;
+  font-family:bitter;
+  font-style: bold;
+  color: black;
+}
+
+.custom-table {
+  width: 60%;
+  border-collapse: collapse;
+  margin-top: 280px;
+  margin-left: 400px;
+  font-size: bitter;
+  font-style: light;
+}
+
+.custom-table td {
+  border: none; 
+  padding: 10px; 
+}
+
+.elements{
+  margin-top: 500px;
+  margin-bottom: 500px;
+  text-align: center;
+  font-style: regular;
+  font-size: 1vw;
+}
+
+.blue-rectangle3{
+  background-color:rgb(4, 148, 255);  
+  margin-top: 200px;
+  padding: 10px; 
+  color: white; 
+  width: 1300px; 
+  height: 750px;
+}
+
+.question5{
+  margin:0;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  width:70%;
+  font-size: 1.9vw;
+  font-family:bitter;
+  font-style: bold;
+  color: black;
+}
+
+.custom-table2{
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 280px;
+  margin-left: 250px;
+  font-size: bitter;
+  font-style: light;
+  margin-bottom: 10px;
+}
+
+.t1,.t2{
+  font-size: 0.9vw;
+}
+
+.an{
+  margin-top: 500px;
+  margin-bottom: 500px;
+  margin-left: 700px;
+  font-style: regular;
+  width:50%;
+  font-size: 1.5vw;
 }
 
 h3{
@@ -54,16 +267,89 @@ h3{
   margin-top: 20px;
 }
 
-.l1,.l2,.l3{
-  margin-top: 90px;
-  margin-bottom: 90px;
-}
-
-.l3{
-  margin-bottom: 700px;
-}
-
 .bold-underline {
     font-weight: bold;
     text-decoration: underline;
 }
+
+.blue-rectanglel{
+  background-color:rgb(4, 148, 255);  
+  margin-top: 200px;
+  margin-bottom: 300px;
+  padding: 10px; 
+  color: white; 
+  width: 1300px; 
+  height: 1100px;
+}
+
+.question6 {
+  margin:0;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  width:55%;
+  font-size: 2vw;
+  font-family:bitter;
+  font-style: bold;
+  color: black;
+}
+
+.custom-tablel {
+  width: 60%;
+  border-collapse: collapse;
+  margin-top: 280px;
+  margin-left: 400px;
+}
+
+.l1,.l2,.l3{
+  margin-top: 30px;
+  margin-bottom: 35px;
+  font-family: bitter;
+  font-style: light;
+  font-size: 0.9vw;
+}
+
+.me{
+  font-size: 1vw;
+  font-family: bitter;
+  color: black;
+  margin-top:300px;
+  margin-left: 0;
+}
+
+.top-button {
+  display: inline-block;
+  margin-top: 100px; 
+  padding: 10px 15px;  
+  background-color: black;
+  color: white;
+  text-decoration: none;  
+  border-radius: 4px;  
+  transition: background-color 0.3s;  
+  margin-bottom: 500px;
+}
+
+.top-button:hover {
+  background-color: rgb(4, 148, 255);
+}
+
+.me,.space-text,.space-text2,.tu{
+  font-family: bitter;
+  font-size: 1vw;
+  margin-top: 150px;
+  color: black;
+}
+
+.tu{
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
